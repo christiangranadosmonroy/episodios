@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+    color:  #f79d00;
+}
+#options > nav {
+    padding-top: 20px;
+    background-color: #141414;
+}
+
+#options > nav a.is-selected {
+    border-bottom: 5px solid #f79d00;
+    color: white;
+}
+
+#options > article{
+  padding-left:20px;
+  margin-bottom: 100px;
+}
+
+#options > article h2 {
+  color: #f79d00;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px 0 20px;
+}
+
+#options > nav a {
+    text-decoration: none;
+    text-align: center;
+    vertical-align: top;
+    font-weight: bold;
+    color: #777;
+    height: 50px;
+    line-height: 10px;
+}
+
+#options > nav a:hover {
+    color: #f79d00;
+}
+
+#options > nav a h2 {
+    margin: 10px 0 0;
+    font-size: 1em;
+}
+
+#options> article > section {
+  background-color:black;
+    display: none;
+    padding: 40px 0;
+}
+
+#options > article > section.is-selected {
+    display: block;
+}
+
+#options #watchanywhere h2 {
+    font-size: 19px;
+    padding-right: 1em;
+    margin: 0 0 20px;
+}
+
+#options #watchanywhere > div:first-child {
+    margin-bottom: 60px;
+}
+
+#options #watchanywhere p {
+    color: #999;
+}
+
+#options #pickprice h2 {
+    font-size: 22px;
+    display: inline;
+    margin: 0 40px 0 0;
+}
+
+.columns {
+    display: flex;
+}
+
+.column {
+    display: block;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.column.is-narrow {
+    flex: none;
+}
+
+.columns.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.column.is-25 {
+    flex: none;
+    width: 25%;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.size-80 {
+    width: 80%;
+}
+
+.size-70 {
+    width: 70%;
+}
+
+table {
+    background-color: black;
+    width: 40%;
+    margin-top: 30px;
+ }
+
+table, thead, tbody {
+    border-collapse: collapse;
+}
+
+thead {
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+thead th {
+    padding: 15px;
+}
+
+tbody {
+    color: #999;
+}
+
+tbody td {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #222;
+}
+
+tbody td:first-child {
+    text-align: left;
+}
+tr td label{
+
+    cursor: pointer;
+}
